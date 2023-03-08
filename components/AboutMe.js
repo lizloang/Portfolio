@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col gap-6 py-36">
-      <div className="bg-pink-500 w-fit p-2.5 rounded text-2xl translate-y-14">
-        Hello World!⚡ I'm Lizbeth Alicia
+    <div className="flex flex-col gap-6 px-20 py-36">
+      <div className="w-fit translate-y-14 rounded bg-pink-500 p-2.5 text-2xl">
+        Hello World!⚡ I am Lizbeth Alicia
       </div>
-      <div className="flex">
-        <div className="text-5xl self-center">
+      <div className="flex gap-20">
+        <div className="max-w-2xl self-center text-5xl ">
           Highly motivated{" "}
           <span className="text-pink-500">front-end developer</span>. Seeking to
           leverage my experience and knowledge to make the web and your apps a

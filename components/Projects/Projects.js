@@ -2,7 +2,7 @@ import Project from "./Project";
 
 export default function Projects() {
   return (
-    <div className="flex flex-col pb-36 gap-16 items-center">
+    <div className="flex flex-col items-center gap-16 pb-36">
       <h1 className="text-7xl">Projects</h1>
       <Project
         img={"/BQ.png"}
@@ -10,7 +10,7 @@ export default function Projects() {
         description={
           "A restaurant management application  for different roles, including admin, waiter, and chef, to control access to various features."
         }
-        tools={["React", "React Router", "Jest", "HTTP Request"]}
+        tools={["React", "React Router", "Jest", "Fetch"]}
         link={"https://cdmx-013-burger-queen-api-client-sigma.vercel.app/"}
       />
       <Project
