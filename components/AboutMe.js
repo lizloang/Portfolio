@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col gap-6 px-20 py-36">
+    <div className="my-36 flex flex-col gap-6 px-20">
       <div className="w-fit translate-y-14 rounded bg-pink-500 p-2.5 text-2xl">
         Hello World!⚡ I am Lizbeth Alicia
       </div>

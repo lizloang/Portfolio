@@ -1,8 +1,8 @@
 import SocialIcon from "./SocialIcon";
 
-export default function Contact() {
+export default function Contact({ className }) {
   return (
-    <div className="flex flex-col gap-4 p-10">
+    <div className={`my-0 flex flex-col  gap-4 px-10 ${className}`}>
       <h1 className="text-5xl">Don’t be a stranger! ✌🏼</h1>
       <div className="w-fit rounded bg-pink-500 p-2.5 text-2xl ">
         Connect with me

@@ -2,9 +2,9 @@ import Tool from "./Tool";
 
 export default function Tooling() {
   return (
-    <div className="flex flex-col pb-36 gap-16 items-center">
+    <div className="my-36 flex flex-col items-center gap-16">
       <h1 className="text-7xl">Tooling</h1>
-      <div className="flex gap-4 justify-center flex-wrap w-7/12">
+      <div className="flex w-7/12 flex-wrap justify-center gap-4">
         <Tool img={"/react.png"} name={"ReactJS"} />
         <Tool img={"/js.png"} name={"JavaScript"} />
         <Tool img={"/nodejs.png"} name={"Node.js"} />
