@@ -3,7 +3,7 @@ export default function Tool({ img, name }) {
   return (
     <div
       className={
-        "bg-white text-pink-500 flex text-lg items-center gap-4 w-44 p-3 rounded-md"
+        " flex items-center gap-2 rounded-md bg-white  p-3 text-lg text-pink-500 md:w-44 md:gap-4"
       }
     >
       <Image src={img} alt={name} width={48} height={48} />

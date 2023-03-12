@@ -2,12 +2,12 @@ import SocialIcon from "./SocialIcon";
 
 export default function Contact({ className }) {
   return (
-    <div className={`my-0 flex flex-col  gap-4 px-10 ${className}`}>
-      <h1 className="text-5xl">Don’t be a stranger! ✌🏼</h1>
-      <div className="w-fit rounded bg-pink-500 p-2.5 text-2xl ">
+    <div className={`my-10 px-10 ${className}`}>
+      <h1 className="text-center text-dynamic-xlg">Don’t be a stranger! ✌🏼</h1>
+      <div className=" m-auto my-5 w-fit rounded bg-pink-500 p-2.5 text-dynamic-md ">
         Connect with me
       </div>
-      <div className="flex gap-4 pb-10">
+      <div className="flex justify-center gap-4 pb-10">
         <SocialIcon
           img={"/github.png"}
           name={"Github"}

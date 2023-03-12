@@ -2,8 +2,8 @@ import Project from "./Project";
 
 export default function Projects() {
   return (
-    <div className="my-36 flex flex-col items-center gap-16">
-      <h1 className="text-7xl">Projects</h1>
+    <div className="my-10 flex flex-col items-center gap-16 md:my-36">
+      <h1 className="text-dynamic-xlg">Projects</h1>
       <Project
         img={"/BQ.png"}
         title={"Burger Queen"}
@@ -17,7 +17,7 @@ export default function Projects() {
         img={"/MD.png"}
         title={"MD-Links"}
         description={
-          "command-line interface (CLI) and library to examine Markdown files, generate statistics, and validate links found within them using HTTP requests, resulting in a highly functional and useful tool for developers and content creators."
+          "Command-line interface (CLI) and library to examine Markdown files, generate statistics, and validate links found within them using HTTP requests, resulting in a highly functional and useful tool for developers and content creators."
         }
         tools={["Node.js", "JavaScript", "Jest", "Axios"]}
         link={"https://github.com/lizloang/CDMX013-md-links"}

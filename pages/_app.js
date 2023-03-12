@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <NavBar />
-      <div className="flex min-h-screen flex-col justify-between">
+      <div className="text-dynamic-sm flex min-h-screen flex-col justify-between">
         <Component {...pageProps} />
         <Footer />
       </div>

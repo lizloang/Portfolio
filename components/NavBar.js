@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <header className=" fixed inset-0 z-10 mr-auto flex h-16 items-center justify-between bg-slate-800 p-8 text-lg font-bold text-white opacity-95">
+    <header className="fixed z-10 mr-auto  h-16 items-center justify-between bg-slate-800 p-8 text-lg font-bold text-white opacity-95 md:inset-0 md:flex">
       <div className="flex items-baseline gap-2">
         <Link
           href="/"
@@ -17,7 +17,7 @@ export default function NavBar() {
           <div className="mx-2 inline-block h-2.5 w-2.5 rounded-full bg-lime-500"></div>{" "}
         </div>
       </div>
-      <nav>
+      <nav className="hidden md:block">
         <ul className="flex gap-8 ">
           <li>
             <Link
