@@ -6,15 +6,15 @@ export default function NavBar() {
       <div className="flex items-baseline md:gap-2">
         <Link
           href="/"
-          className="group text-3xl text-white transition duration-300"
+          className="group text-dynamic-lg text-white transition duration-300"
         >
           Liz Loang
           <span class="block h-0.5 max-w-0 bg-white transition-all duration-200 group-hover:max-w-full"></span>
         </Link>
 
-        <div className="px-3 ">
+        <div className="whitespace-nowrap">
           Open to work
-          <div className="mx-2 inline-block h-2.5 w-2.5 rounded-full bg-lime-500"></div>{" "}
+          <div className=" mx-1 inline-block h-2.5 w-2.5 rounded-full bg-lime-500 md:mx-2"></div>{" "}
         </div>
       </div>
       <nav className="hidden md:block">
