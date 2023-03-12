@@ -6,7 +6,7 @@ export default function NavBar() {
       <div className="flex items-baseline md:gap-2">
         <Link
           href="/"
-          className="group text-dynamic-lg text-white transition duration-300"
+          className="group mr-4 text-3xl text-white transition duration-300"
         >
           Liz Loang
           <span class="block h-0.5 max-w-0 bg-white transition-all duration-200 group-hover:max-w-full"></span>
