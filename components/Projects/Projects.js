@@ -2,7 +2,7 @@ import Project from "./Project";
 
 export default function Projects() {
   return (
-    <div className="my-10 flex flex-col items-center gap-16 md:my-36">
+    <div className="my-10 flex flex-col items-center gap-10 md:my-28">
       <h1 className="text-dynamic-xlg">Projects</h1>
       <Project
         img={"/BQ.png"}

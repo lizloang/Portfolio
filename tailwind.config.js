@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontSize: {
         "dynamic-md": "clamp(1.25rem, 4vw, 2rem)",
-        "dynamic-lg": "clamp(2rem, 6vw, 3rem)",
+        "dynamic-lg": "clamp(2rem, 6vw, 2.7rem)",
         "dynamic-xlg": "clamp(3rem, 8vw, 4rem)",
         "dynamic-sm": "clamp(1rem, 3vw, 1.5rem)",
       },
