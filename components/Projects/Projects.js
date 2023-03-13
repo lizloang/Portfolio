@@ -17,7 +17,7 @@ export default function Projects() {
         img={"/MD.png"}
         title={"MD-Links"}
         description={
-          "Command-line interface (CLI) and library to examine Markdown files, generate statistics, and validate links found within them using HTTP requests, resulting in a highly functional and useful tool for developers and content creators."
+          "Command-line interface (CLI) and library to examine Markdown files, generate statistics, and validate links found within them using HTTP requests, resulting in a highly functional and useful tool for developers."
         }
         tools={["Node.js", "JavaScript", "Jest", "Axios"]}
         link={"https://github.com/lizloang/CDMX013-md-links"}
@@ -26,7 +26,7 @@ export default function Projects() {
         img={"/GP.png"}
         title={"Gym Partners"}
         description={
-          "Social Network that allowed users to create, edit, delete, and like posts after logging in or signing up, resulting in a highly engaging and dynamic user experience."
+          "Social Network that allows users to create, edit, delete, and like posts after logging in or signing up."
         }
         tools={["JavaScript", "Firebase", "Axios"]}
         link={"https://gympartners-4a720.web.app/home"}
@@ -35,7 +35,7 @@ export default function Projects() {
         img={"/RM.png"}
         title={"Rick and Morty Wiki"}
         description={
-          "Web application that allows filtering, sorting, and displaying statistics about characters from the Rick & Morty "
+          "Web application that allows filtering, sorting, and displaying statistics about characters from the Rick & Morty series."
         }
         tools={["JavaScript", "Jest", "Chart Js"]}
         link={"https://vanesadeneb.github.io/CDMX013-data-lovers/"}
